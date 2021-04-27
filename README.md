@@ -27,7 +27,7 @@ Please note that `ref=<>` is refering to the commit tag on this repo.
 
 ```hcl
 module "network" {
-  source         = "git@github.com:YAMABASS80/terraform-modules-vpc.git?ref=1.0.3"
+  source         = "git@github.com:YAMABASS80/terraform-module-vpc-no-nat.git?ref=1.0.0"
   vpc_cidr_block = var.vpc_cidr_block
 }
 ```
