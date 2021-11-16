@@ -5,6 +5,7 @@ VPC without NAT gateway. from Private subnet there are no way to access to the i
 |  Name  |  Type  | Description  |
 | ---- | ---- | ---- |
 |  vpc_cidr_block  |  string  | VPC CIDR range  |
+|  vpc_name  |  string  | VPC Name for tag. This will be applied to the network resource tag prefix as {vpc-name}-*resource-name*.  |
 
 # Outputs
 |  Name  |  Type  | Description  |
