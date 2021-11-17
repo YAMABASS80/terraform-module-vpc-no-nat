@@ -76,7 +76,7 @@ resource "aws_route_table" "public_subnet_2_route_table" {
   }
 
   tags = {
-    Name = "p${var.vpc_name}-ublic_subnet_2_rt"
+    Name = "${var.vpc_name}-public_subnet_2_rt"
   }
 }
 
