@@ -1,5 +1,5 @@
 # VPC Overview
-VPC without NAT gateway. from Private subnet there are no way to access to the internet, except for S3.
+VPC without internet connectivitiy. From Private subnet there are no way to access to the internet, except for S3.
 
 # Parameters
 |  Name  |  Type  | Description  |
@@ -25,6 +25,8 @@ VPC without NAT gateway. from Private subnet there are no way to access to the i
 
 In your main.tf file, you can just write as below.
 Please note that `ref=<>` is refering to the commit tag on this repo.
+
+Make sure you are using right version in `ref=` parameter.
 
 ```hcl
 module "network" {
